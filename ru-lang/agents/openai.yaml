@@ -1,4 +1,4 @@
 interface:
   display_name: "ru-lang"
-  short_description: "Русский язык в прикладных и технических текстах"
-  default_prompt: "Используй $ru-lang для русскоязычного текста."
+  short_description: "Базовые правила русского текста"
+  default_prompt: "Используй $ru-lang для проверки русского текста."
