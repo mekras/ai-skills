@@ -1,0 +1,4 @@
+interface:
+  display_name: "private-project-knowledge"
+  short_description: "Локальные знания проекта вне VCS"
+  default_prompt: "Используй $private-project-knowledge для настройки приватных локальных правил проекта."
