@@ -75,7 +75,7 @@
 - Для слоистых навыков базовый слой может иметь `should_trigger: true` в той
   же задаче, где более узкий навык тоже должен добавить свои правила.
 - Проверяй структуру файлов командой
-  `python3 tools/validate-trigger-evals.py`.
+  `python3 tools/validate-trigger-evals.py --require-all`.
 
 ## Оценка качества
 
