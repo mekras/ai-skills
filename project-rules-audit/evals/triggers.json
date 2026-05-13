@@ -90,6 +90,12 @@
       "prompt": "Проверь SKILL.md и agents/openai.yaml на качество описания навыка.",
       "should_trigger": false,
       "rationale": "Это проверка навыка агента, для неё предназначен skill-development."
+    },
+    {
+      "id": "project-rules-audit-negative-project-skills-review",
+      "prompt": "Проверь навыки в этом проекте: нет ли в них проблем и нельзя ли их улучшить.",
+      "should_trigger": false,
+      "rationale": "Это аудит навыков агента, а не аудит проектных правил для агента."
     }
   ]
 }

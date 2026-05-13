@@ -38,6 +38,12 @@
       "rationale": "Нужно синхронизировать метаданные навыка."
     },
     {
+      "id": "skill-development-positive-review-project-skills",
+      "prompt": "Проверь навыки в этом проекте: нет ли в них проблем и нельзя ли их улучшить.",
+      "should_trigger": true,
+      "rationale": "Нужна диагностика качества набора навыков агента."
+    },
+    {
       "id": "skill-development-negative-ordinary-code-change",
       "prompt": "Исправь ошибку в обработке пустого ответа API и добавь тест.",
       "should_trigger": false,
