@@ -32,6 +32,12 @@
       "rationale": "Нужна русская правка с сохранением технических элементов."
     },
     {
+      "id": "ru-lang-positive-fix-wrong-quotes",
+      "prompt": "Исправь русский текст и замени неправильные кавычки: “мы получили заявку и вернёмся завтра”.",
+      "should_trigger": true,
+      "rationale": "Нужно отредактировать русский текст и исправить типографику кавычек."
+    },
+    {
       "id": "ru-lang-negative-shell-command",
       "prompt": "Run `git status --short` and tell me if the worktree is clean.",
       "should_trigger": false,
