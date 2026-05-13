@@ -26,6 +26,12 @@
       "rationale": "Нужно подобрать русские замены заимствованиям."
     },
     {
+      "id": "ru-lang-positive-replace-pipeline-and-batch",
+      "prompt": "Отредактируй русский статус: \"Пайплайн уже работает, запустил первый батч на 3 файла\".",
+      "should_trigger": true,
+      "rationale": "Нужно заменить нежелательные заимствования в обычном русском техническом тексте."
+    },
+    {
       "id": "ru-lang-positive-technical-elements",
       "prompt": "Проверь русский текст, но не меняй URL, API names и имена файлов: \"OAuth-токен лежит в config.json\".",
       "should_trigger": true,
