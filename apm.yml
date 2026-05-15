@@ -1,0 +1,12 @@
+name: ai-skills
+version: 0.1.0
+description: "Коллекция переносимых навыков для агентной разработки"
+author: "mekras"
+license: "MIT"
+target:
+  - claude
+  - codex
+type: "skill"
+scripts:
+  start: "python3 tools/validate-trigger-evals.py --require-all"
+  validate-triggers: "python3 tools/validate-trigger-evals.py --require-all"
