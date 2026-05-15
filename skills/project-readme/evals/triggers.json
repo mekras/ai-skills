@@ -1,0 +1,65 @@
+{
+  "skill_name": "project-readme",
+  "cases": [
+    {
+      "id": "project-readme-positive-create-readme",
+      "prompt": "Создай README.md для проекта: опиши, что это такое, как установить, как использовать и как развивать.",
+      "should_trigger": true,
+      "rationale": "Нужно создать пользовательский README проекта с типовой структурой."
+    },
+    {
+      "id": "project-readme-positive-rewrite-readme",
+      "prompt": "Перепиши README библиотеки по-русски: сейчас не хватает установки, примеров использования и раздела для разработчиков.",
+      "should_trigger": true,
+      "rationale": "Запрос прямо касается русскоязычного README и обязательных разделов."
+    },
+    {
+      "id": "project-readme-positive-check-title",
+      "prompt": "Проверь README.md проекта и убедись, что первая строка — русский заголовок первого уровня с названием проекта.",
+      "should_trigger": true,
+      "rationale": "Нужно проверить структуру и заголовок README проекта."
+    },
+    {
+      "id": "project-readme-positive-install-and-usage",
+      "prompt": "Дополни README: добавь краткое описание проекта, подключение, подробное использование и руководство по разработке.",
+      "should_trigger": true,
+      "rationale": "Нужно дополнить README до требуемой структуры."
+    },
+    {
+      "id": "project-readme-positive-unknown-title",
+      "prompt": "Подготовь README.md для нового проекта. Если название нельзя надёжно определить, сначала уточни его у меня.",
+      "should_trigger": true,
+      "rationale": "Нужно создать README и корректно обработать неопределённость с названием проекта."
+    },
+    {
+      "id": "project-readme-negative-skill-docs",
+      "prompt": "Создай README для навыка агента внутри каталога skills/project-readme.",
+      "should_trigger": false,
+      "rationale": "Навык не должен создавать пользовательскую документацию внутри директории навыка."
+    },
+    {
+      "id": "project-readme-negative-agents-rules",
+      "prompt": "Обнови AGENTS.md и добавь правила проверки README перед релизом.",
+      "should_trigger": false,
+      "rationale": "Это правка правил проекта для агента, а не пользовательского README."
+    },
+    {
+      "id": "project-readme-negative-changelog",
+      "prompt": "Подготовь историю изменений для релиза 0.2.0 и оформи её в CHANGELOG.md.",
+      "should_trigger": false,
+      "rationale": "Это сопровождение CHANGELOG, а не README проекта."
+    },
+    {
+      "id": "project-readme-negative-general-docs",
+      "prompt": "Напиши подробную архитектурную документацию по сервису авторизации.",
+      "should_trigger": false,
+      "rationale": "Это общая документация проекта, но не README."
+    },
+    {
+      "id": "project-readme-negative-code-task",
+      "prompt": "Добавь поддержку OAuth в CLI и напиши тесты.",
+      "should_trigger": false,
+      "rationale": "Это задача разработки без сопровождения README."
+    }
+  ]
+}

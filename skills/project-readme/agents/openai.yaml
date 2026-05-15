@@ -1,0 +1,4 @@
+interface:
+  display_name: "project-readme"
+  short_description: "Русскоязычный README проекта"
+  default_prompt: "Используй $project-readme для создания или проверки README.md проекта на русском языке."
