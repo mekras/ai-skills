@@ -29,8 +29,10 @@ apm deps list -g
 4. Обновить коллекцию:
 
 ```bash
-apm update -g
+apm deps update -g
 ```
+
+Если нужно обновить сам CLI `APM`, используйте `apm self-update`.
 
 5. Проверить, что агенту доступны навыки:
 
