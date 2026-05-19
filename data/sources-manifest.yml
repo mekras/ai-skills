@@ -1,0 +1,47 @@
+contract_version: 1
+
+registry:
+  path: data/primary/web/skill-development-sources/index.yml
+  format: yaml
+  purpose: >
+    Реестр публичных источников, на которые опирается база знаний проекта о
+    проектировании и сопровождении навыков агента.
+
+primary_data:
+  root: data/primary
+  source_index_pattern: data/primary/<platform>/<source>/index.yml
+  snapshots:
+    path: data/primary
+    policy: >
+      В Git хранятся только публичные URL, проверочные метаданные,
+      извлечённые факты и отчёты. Полные снимки внешних страниц не
+      сохраняются, если они не нужны для проверки.
+
+reports:
+  source_inventory: data/reports/source-inventory
+  source_impact: data/reports/source-impact
+
+derived_documents:
+  - knowledge
+  - skills
+  - README.md
+  - CHANGELOG.md
+  - AGENTS.md
+
+sensitive_data_policy:
+  public_or_redacted: data/primary
+  local_private: data/private.local
+  local_raw: data/raw.local
+  rules:
+    - "Не добавлять в Git токены, cookies, закрытые документы и приватные рабочие заметки."
+    - "В первичных данных хранить только URL, метаданные и короткие проверочные формулировки."
+    - "Не переносить сведения в knowledge/ без источника, даты проверки или явной пометки о происхождении вывода."
+
+sync:
+  default_adapter: manual-web
+  unsupported_adapters_policy: manual-required
+
+impact_audit:
+  default_scope:
+    - knowledge
+  source_report_required: true

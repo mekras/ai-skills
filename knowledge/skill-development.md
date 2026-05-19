@@ -2,6 +2,13 @@
 
 Дата создания: 2026-05-12.
 
+## Роль файла
+
+Этот файл хранит устойчивые выводы, проектные решения и внешние опоры по
+разработке навыков. Он не заменяет `AGENTS.md`: обязательные правила работы
+агента в этом репозитории остаются в корневых инструкциях, а здесь хранится
+методическая база, которую агент читает по задаче.
+
 ## Устойчивые принципы
 
 - Навык должен снижать вероятность конкретных ошибок агента, а не просто
@@ -169,8 +176,14 @@
 
 ## Источники
 
-- Agent Skills: Best practices for skill creators, 2026-05-12.
-- Agent Skills: Optimizing skill descriptions, 2026-05-12.
-- Agent Skills: Evaluating skill output quality, 2026-05-12.
-- Perplexity Research: Designing, Refining, and Maintaining Agent Skills at
-  Perplexity, 2026-05-12.
+- URL внешних источников восстановлены 2026-05-19 поиском по точным названиям
+  материалов, которые уже были указаны в этом разделе.
+- Agent Skills: [Best practices for skill creators](https://agentskills.io/skill-creation/best-practices), проверено 2026-05-19.
+- Agent Skills: [Optimizing skill descriptions](https://agentskills.io/skill-creation/optimizing-descriptions), проверено 2026-05-19.
+- Agent Skills: [Evaluating skill output quality](https://agentskills.io/skill-creation/evaluating-skills), проверено 2026-05-19.
+- Perplexity Research: [Designing, Refining, and Maintaining Agent Skills at Perplexity](https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity), проверено 2026-05-19.
+- Проектные решения подтверждаются историей Git:
+  `git log --follow -- knowledge/skill-development.md`.
+- Технический слой источников:
+  `data/primary/web/skill-development-sources/index.yml`,
+  `data/primary/web/skill-development-sources/facts/extracted-facts.md`.

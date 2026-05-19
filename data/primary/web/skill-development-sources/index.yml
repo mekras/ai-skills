@@ -1,0 +1,111 @@
+source_id: WEB-SKILL-DEVELOPMENT
+title: "Публичные источники по проектированию навыков агента"
+status: approved
+priority: high
+kind: website_collection
+adapter: manual-web
+locator: "knowledge/skill-development.md#источники"
+
+access: public
+publication_safety: ok
+sensitivity: public
+reliability: official-and-working
+stability: mutable
+refresh_policy: manual
+update_policy: manual
+
+retrieved_at: 2026-05-19
+last_checked_at: 2026-05-19
+checked_by: "Codex"
+
+scope:
+  includes:
+    - "Публичная документация Agent Skills по созданию, описаниям и оценке навыков."
+    - "Публичная статья Perplexity Research о проектировании и сопровождении навыков."
+    - "Проектные решения, восстановленные по истории Git этого репозитория."
+  excludes:
+    - "Полные копии внешних страниц."
+    - "Закрытые материалы, приватные заметки и неотслеживаемые черновики."
+
+known_limitations:
+  - "Первоначальные URL не были сохранены в knowledge/skill-development.md; ссылки восстановлены 2026-05-19 поиском по точным названиям источников и проверкой открытых страниц."
+  - "Часть проектных решений основана на истории изменений репозитория, а не на внешней статье."
+  - "Внешние страницы могут измениться после проверки."
+
+processing_notes:
+  - "Отчёт инвентаризации: data/reports/source-inventory/2026-05-19-skill-development-sources.md."
+  - "Отчёт о влиянии: data/reports/source-impact/2026-05-19-skill-development.md."
+  - "Извлечённые факты: data/primary/web/skill-development-sources/facts/extracted-facts.md."
+
+affects:
+  - "knowledge/skill-development.md"
+  - "skills/skill-development"
+  - "skills/source-inventory"
+  - "skills/source-impact-audit"
+  - "skills/source-fact-extraction"
+
+items:
+  - item_id: WEB-SKILL-DEVELOPMENT-001
+    title: "Best practices for skill creators"
+    source: "Agent Skills"
+    url: "https://agentskills.io/skill-creation/best-practices"
+    retrieved_at: 2026-05-19
+    last_checked_at: 2026-05-19
+    access: public
+    reliability: official
+    workflow_stage: facts_extracted
+    supports:
+      - "Контекстная стоимость навыков."
+      - "Постепенное раскрытие через references, scripts и assets."
+      - "Опора навыков на реальный опыт и проектные артефакты."
+  - item_id: WEB-SKILL-DEVELOPMENT-002
+    title: "Optimizing skill descriptions"
+    source: "Agent Skills"
+    url: "https://agentskills.io/skill-creation/optimizing-descriptions"
+    retrieved_at: 2026-05-19
+    last_checked_at: 2026-05-19
+    access: public
+    reliability: official
+    workflow_stage: facts_extracted
+    supports:
+      - "description как основной механизм срабатывания навыка."
+      - "Проверки положительных и отрицательных запросов."
+      - "Риск переобучения описания на проверочной выборке."
+  - item_id: WEB-SKILL-DEVELOPMENT-003
+    title: "Evaluating skill output quality"
+    source: "Agent Skills"
+    url: "https://agentskills.io/skill-creation/evaluating-skills"
+    retrieved_at: 2026-05-19
+    last_checked_at: 2026-05-19
+    access: public
+    reliability: official
+    workflow_stage: facts_extracted
+    supports:
+      - "Сравнение результата с навыком и без навыка."
+      - "Сохранение артефактов оценки, времени и проверок."
+      - "Роль человеческой проверки качества результата."
+  - item_id: WEB-SKILL-DEVELOPMENT-004
+    title: "Designing, Refining, and Maintaining Agent Skills at Perplexity"
+    source: "Perplexity Research"
+    url: "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity"
+    retrieved_at: 2026-05-19
+    last_checked_at: 2026-05-19
+    access: public
+    reliability: working
+    workflow_stage: facts_extracted
+    supports:
+      - "Навык как директория, формат, вызываемая единица и прогрессивный контекст."
+      - "Каждое описание навыка платится в контексте сессии."
+      - "Описание навыка должно маршрутизировать, а не документировать."
+  - item_id: WEB-SKILL-DEVELOPMENT-005
+    title: "Git history: knowledge/skill-development.md"
+    source: "Локальная история Git"
+    locator: "git log --follow -- knowledge/skill-development.md"
+    retrieved_at: 2026-05-19
+    last_checked_at: 2026-05-19
+    access: local
+    reliability: project-history
+    workflow_stage: facts_extracted
+    supports:
+      - "Даты и контекст проектных решений."
+      - "Происхождение разделов о слоях русских навыков, приватных знаниях и источниках."
