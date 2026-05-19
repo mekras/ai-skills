@@ -21,9 +21,14 @@
 - `private-project-knowledge` — локальные знания проекта вне VCS;
 - `project-readme` — сопровождение русскоязычного `README.md` проекта;
 - `project-rules-audit` — аудит правил проекта для агента;
+- `primary-data-pipeline` — конвейер первичных данных от источников до
+  документов;
+- `primary-data-summary` — сводка состояния первичных данных по стадиям;
 - `ru-dev` — русский текст в разработке ПО;
 - `ru-lang` — базовые правила русского текста;
 - `skill-development` — создание и сопровождение навыков;
+- `source-fact-extraction` — извлечение проверяемых фактов из первичных
+  данных;
 - `source-impact-audit` — анализ влияния источников на документацию;
 - `source-inventory` — учёт и техническая синхронизация внешних источников;
 - `transcript-analysis` — разбор и чистка стенограмм.
@@ -88,8 +93,9 @@ apm outdated -g
   других правил агента;
 - использовать `skill-development` для создания новых навыков и проверки
   существующих;
-- использовать `source-inventory` и `source-impact-audit` для проектной работы
-  с внешними источниками.
+- использовать `source-inventory`, `source-fact-extraction`,
+  `source-impact-audit`, `primary-data-pipeline` и `primary-data-summary` для
+  проектной работы с внешними источниками и первичными данными.
 
 Минимальный сценарий проверки на машине разработчика:
 
