@@ -1,0 +1,61 @@
+source_id: LOCAL-SOFTWARE-REQUIREMENTS-3E
+title: "Software Requirements, Third Edition / Разработка требований к программному обеспечению, 3-е издание"
+status: approved
+priority: high
+kind: local_book
+adapter: manual-local-pdf
+locator: "Локальный PDF пользователя; путь не сохраняется в отслеживаемых файлах."
+
+access: local
+publication_safety: bibliographic-and-paraphrase-only
+sensitivity: copyrighted-local-copy
+reliability: author-methodology
+stability: stable
+refresh_policy: manual
+update_policy: manual
+
+retrieved_at: 2026-05-27
+last_checked_at: 2026-05-27
+checked_by: "Codex"
+
+scope:
+  includes:
+    - "Методическая рамка разработки требований: выявление, анализ, спецификация, утверждение и управление."
+    - "Практики работы с заинтересованными лицами, классами пользователей, моделями, качеством требований и изменениями."
+  excludes:
+    - "Полный текст книги и длинные фрагменты."
+    - "Путь к локальной библиотеке пользователя."
+    - "Иллюстрации, таблицы и примеры, защищённые авторским правом."
+
+known_limitations:
+  - "Источник использован как локальная копия пользователя; проверка проводилась по извлечённому тексту во временном каталоге."
+  - "В репозиторий перенесены только библиографические сведения и краткие пересказанные выводы."
+  - "Навыки не являются конспектом книги и не должны воспроизводить её текст."
+
+processing_notes:
+  - "Сведения извлечены через `pdfinfo` и `pdftotext` во временный файл вне репозитория."
+  - "Отчёт инвентаризации: data/reports/source-inventory/2026-05-27-software-requirements-book.md."
+  - "Отчёт о влиянии: data/reports/source-impact/2026-05-27-requirements-skills.md."
+  - "Извлечённые факты: data/primary/local/software-requirements-3e/facts/extracted-facts.md."
+
+affects:
+  - "skills/requirements-elicitation"
+  - "skills/requirements-analysis"
+  - "skills/requirements-specification"
+  - "skills/requirements-validation"
+  - "skills/requirements-management"
+
+items:
+  - item_id: LOCAL-SOFTWARE-REQUIREMENTS-3E-001
+    title: "Разработка требований к программному обеспечению. 3-е изд., дополненное"
+    source: "Карл Вигерс, Джой Битти"
+    locator: "local-user-provided-pdf"
+    retrieved_at: 2026-05-27
+    last_checked_at: 2026-05-27
+    access: local
+    reliability: author-methodology
+    workflow_stage: facts_extracted
+    supports:
+      - "Разделение разработки требований на выявление, анализ, спецификацию и утверждение."
+      - "Выделение управления требованиями как отдельной непрерывной деятельности."
+      - "Критерии качества требований и практики работы с изменениями, приоритетами и связями."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "requirements-elicitation"
+  short_description: "Выявление требований к ПО"
+  default_prompt: "Используй $requirements-elicitation, чтобы спланировать сбор требований, найти участников, выбрать методы и разобрать исходные сведения."

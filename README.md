@@ -26,6 +26,13 @@
 - `primary-data-pipeline` — конвейер первичных данных от источников до
   документов;
 - `primary-data-summary` — сводка состояния первичных данных по стадиям;
+- `requirements-analysis` — анализ, моделирование и уточнение требований;
+- `requirements-elicitation` — выявление требований и работа с
+  заинтересованными лицами;
+- `requirements-management` — приоритеты, изменения, статусы и связи
+  требований;
+- `requirements-specification` — спецификация требований к ПО;
+- `requirements-validation` — проверка и подготовка требований к утверждению;
 - `ru-dev` — русский текст в разработке ПО;
 - `ru-lang` — базовые правила русского текста;
 - `skill-development` — создание и сопровождение навыков;
@@ -102,6 +109,9 @@ apm outdated -g
 - использовать `project-readme` для создания и проверки `README.md` проекта;
 - использовать `project-rules-audit` для проверки `AGENTS.md`, `CLAUDE.md` и
   других правил агента;
+- использовать `requirements-elicitation`, `requirements-analysis`,
+  `requirements-specification`, `requirements-validation` и
+  `requirements-management` для полного цикла работы с требованиями к ПО;
 - использовать `skill-development` для создания новых навыков и проверки
   существующих;
 - использовать `software-architecture` для архитектурных решений, ADR,

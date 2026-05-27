@@ -1,0 +1,4 @@
+interface:
+  display_name: "requirements-validation"
+  short_description: "Проверка и утверждение требований"
+  default_prompt: "Используй $requirements-validation, чтобы проверить требования, найти дефекты, уточнить критерии приёмки и подготовить утверждение."

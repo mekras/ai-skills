@@ -1,0 +1,4 @@
+interface:
+  display_name: "requirements-management"
+  short_description: "Приоритеты, изменения и связи требований"
+  default_prompt: "Используй $requirements-management, чтобы управлять приоритетами, базовой версией, изменениями, статусами и связями требований."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "requirements-analysis"
+  short_description: "Анализ и моделирование требований"
+  default_prompt: "Используй $requirements-analysis, чтобы разделить цели, задачи, правила, требования, данные, ограничения и решения."

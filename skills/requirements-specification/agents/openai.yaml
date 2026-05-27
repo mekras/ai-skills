@@ -1,0 +1,4 @@
+interface:
+  display_name: "requirements-specification"
+  short_description: "Спецификация требований к ПО"
+  default_prompt: "Используй $requirements-specification, чтобы записать требования в ясном, проверяемом и пригодном для разработки формате."
