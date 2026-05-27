@@ -1,0 +1,4 @@
+interface:
+  display_name: "software-architecture"
+  short_description: "Архитектура ПО, сложность и ADR"
+  default_prompt: "Используй $software-architecture для проектирования архитектуры ПО, управления сложностью, работы с предметной моделью, проверки решений, подготовки ADR и разбора компонентных границ."
