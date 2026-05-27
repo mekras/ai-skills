@@ -1,0 +1,56 @@
+source_id: WEB-EFFECTIVE-DEVELOPMENT-CONCEPT
+title: "Effective Development: концепция проекта"
+status: approved
+priority: high
+kind: website_page
+adapter: manual-web
+locator: "https://mekras.github.io/effective-development/practice/concept.html"
+
+access: public
+publication_safety: ok
+sensitivity: public
+reliability: author-methodology
+stability: mutable
+refresh_policy: manual
+update_policy: manual
+
+retrieved_at: 2026-05-27
+last_checked_at: 2026-05-27
+checked_by: "Codex"
+
+scope:
+  includes:
+    - "Методическая страница о назначении, составе и проверке концепции проекта."
+    - "Критерии краткости, единого понимания и использования концепции как ориентира."
+  excludes:
+    - "Полная копия внешней страницы."
+    - "Другие главы курса Effective Development, кроме ссылок на цели и задачи."
+
+known_limitations:
+  - "Страница содержит примечание о планируемой доработке раздела про концепцию."
+  - "Полный снимок страницы не сохранялся; при спорных правках нужна повторная проверка URL."
+  - "Источник задаёт методическую рамку, а не универсальный стандарт проектной документации."
+
+processing_notes:
+  - "Нормализация выполнена командой `defuddle parse <url> --md`."
+  - "Отчёт инвентаризации: data/reports/source-inventory/2026-05-27-effective-development-concept.md."
+  - "Отчёт о влиянии: data/reports/source-impact/2026-05-27-project-documentation.md."
+  - "Извлечённые факты: data/primary/web/effective-development-concept/facts/extracted-facts.md."
+
+affects:
+  - "skills/project-documentation"
+
+items:
+  - item_id: WEB-EFFECTIVE-DEVELOPMENT-CONCEPT-001
+    title: "Концепция"
+    source: "Effective Development"
+    url: "https://mekras.github.io/effective-development/practice/concept.html"
+    retrieved_at: 2026-05-27
+    last_checked_at: 2026-05-27
+    access: public
+    reliability: author-methodology
+    workflow_stage: facts_extracted
+    supports:
+      - "Концепция как краткий исходный документ проекта."
+      - "Состав концепции: текущее положение, цели, способы достижения и итог."
+      - "Использование концепции как общего ориентира на протяжении проекта."

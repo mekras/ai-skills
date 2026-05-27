@@ -1,0 +1,4 @@
+interface:
+  display_name: "project-documentation"
+  short_description: "Концепция и исходная документация"
+  default_prompt: "Используй $project-documentation, чтобы сформулировать или проверить концепцию проекта: проблему, цель, способ достижения и ожидаемый итог."

@@ -1,0 +1,89 @@
+{
+  "skill_name": "project-documentation",
+  "cases": [
+    {
+      "id": "project-documentation-positive-create-concept",
+      "prompt": "Сформулируй концепцию проекта по этому брифу: сейчас заявки обрабатывают вручную, нужно ускорить работу отдела продаж.",
+      "should_trigger": true,
+      "rationale": "Нужно создать концепцию проекта из исходной проблемы, цели и способа достижения."
+    },
+    {
+      "id": "project-documentation-positive-rewrite-concept",
+      "prompt": "Перепиши черновик концепции проекта так, чтобы было понятно, что не устраивает заказчика, какая цель и каким способом мы её достигаем.",
+      "should_trigger": true,
+      "rationale": "Запрос прямо касается переработки концепции проекта."
+    },
+    {
+      "id": "project-documentation-positive-check-concept",
+      "prompt": "Проверь концепцию проекта: не превратилась ли она в список функций и хватает ли в ней цели, проблемы и ожидаемого результата.",
+      "should_trigger": true,
+      "rationale": "Нужно проверить качество проектной концепции."
+    },
+    {
+      "id": "project-documentation-positive-initial-project-description",
+      "prompt": "Подготовь исходное описание проекта для общего понимания команды и заказчика: зачем он нужен, что меняем и какой итог ожидаем.",
+      "should_trigger": true,
+      "rationale": "Исходное описание для общего понимания соответствует задаче концепции проекта."
+    },
+    {
+      "id": "project-documentation-positive-concept-from-notes",
+      "prompt": "Из этих заметок собери краткую концепцию проекта и отдельно выпиши открытые вопросы, где данных не хватает.",
+      "should_trigger": true,
+      "rationale": "Нужно сформировать концепцию и отделить недостающие сведения."
+    },
+    {
+      "id": "project-documentation-positive-project-purpose",
+      "prompt": "Помоги сформулировать смысл проекта: текущая проблема, цель владельца продукта, способ достижения и итоговый результат.",
+      "should_trigger": true,
+      "rationale": "Запрос описывает структуру проектной концепции без слова «концепция»."
+    },
+    {
+      "id": "project-documentation-positive-concept-alignment",
+      "prompt": "Сверь список задач с концепцией проекта и покажи, какие задачи не помогают достичь заявленной цели.",
+      "should_trigger": true,
+      "rationale": "Концепция используется как ориентир для проверки действий проекта."
+    },
+    {
+      "id": "project-documentation-negative-readme",
+      "prompt": "Создай README.md проекта: добавь описание, установку, использование и руководство по разработке.",
+      "should_trigger": false,
+      "rationale": "README проекта относится к навыку project-readme."
+    },
+    {
+      "id": "project-documentation-negative-adr",
+      "prompt": "Оформи ADR: нужно решить, выделять ли биллинг в отдельный сервис или оставить в монолите.",
+      "should_trigger": false,
+      "rationale": "ADR и архитектурный выбор относятся к software-architecture."
+    },
+    {
+      "id": "project-documentation-negative-requirements-spec",
+      "prompt": "Напиши спецификацию требований к уведомлениям с пользовательскими сценариями и критериями приёмки.",
+      "should_trigger": false,
+      "rationale": "Это спецификация требований, а не исходная концепция проекта."
+    },
+    {
+      "id": "project-documentation-negative-user-manual",
+      "prompt": "Подготовь пользовательскую инструкцию: как оператору создать заявку, назначить ответственного и закрыть обращение.",
+      "should_trigger": false,
+      "rationale": "Пользовательская инструкция не является концепцией или исходной проектной документацией."
+    },
+    {
+      "id": "project-documentation-negative-language-editing",
+      "prompt": "Отредактируй этот раздел документации: убери повторы, улучши русский язык и сохрани смысл.",
+      "should_trigger": false,
+      "rationale": "Это языковая редактура без аналитической работы над концепцией."
+    },
+    {
+      "id": "project-documentation-negative-meeting-notes",
+      "prompt": "Сделай протокол встречи: решения, договорённости, ответственные и сроки.",
+      "should_trigger": false,
+      "rationale": "Протокол встречи не относится к проектной концепции."
+    },
+    {
+      "id": "project-documentation-negative-source-impact",
+      "prompt": "Сравни новую версию внешнего описания продукта с документацией и внеси точечные правки.",
+      "should_trigger": false,
+      "rationale": "Смысловое обновление документации по источникам относится к source-impact-audit."
+    }
+  ]
+}
