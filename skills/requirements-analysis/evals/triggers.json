@@ -27,9 +27,15 @@
     },
     {
       "id": "requirements-analysis-positive-find-gaps",
-      "prompt": "Проверь набор требований на пробелы, дубли, конфликтующие правила и функции вне границ проекта.",
+      "prompt": "Разбери черновые сведения о требованиях и найди пробелы, дубли, конфликтующие правила и функции вне границ проекта.",
       "should_trigger": true,
-      "rationale": "Нужно аналитически проверить структуру и согласованность требований."
+      "rationale": "Нужно аналитически разобрать черновые сведения до готовой спецификации."
+    },
+    {
+      "id": "requirements-analysis-negative-ready-requirements-review",
+      "prompt": "Проверь готовый набор требований на полноту, противоречия, дубли и непроверяемые формулировки.",
+      "should_trigger": false,
+      "rationale": "Проверка готового набора требований относится к requirements-validation."
     },
     {
       "id": "requirements-analysis-negative-plan-interview",
