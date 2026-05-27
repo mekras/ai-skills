@@ -2,3 +2,6 @@ interface:
   display_name: "ru-dev"
   short_description: "Русский текст в разработке ПО"
   default_prompt: "Используй $ru-dev для русского текста о разработке ПО."
+
+policy:
+  allow_implicit_invocation: true

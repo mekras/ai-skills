@@ -138,6 +138,54 @@
       "prompt": "Проверь SKILL.md: хорошо ли описаны триггеры и не раздут ли контекст навыка.",
       "should_trigger": false,
       "rationale": "Это проверка навыка агента, для неё предназначен skill-development."
+    },
+    {
+      "id": "software-architecture-negative-library-choice",
+      "prompt": "Выбери библиотеку для парсинга CSV в нашем CLI и покажи минимальный пример использования.",
+      "should_trigger": false,
+      "rationale": "Это локальный выбор зависимости без архитектурных границ, ADR или существенной неопределённости."
+    },
+    {
+      "id": "software-architecture-negative-local-performance",
+      "prompt": "Оптимизируй медленный SQL-запрос в отчёте пользователей и добавь индекс, если он нужен.",
+      "should_trigger": false,
+      "rationale": "Это локальная задача производительности, пока она не затрагивает форму системы или архитектурные свойства."
+    },
+    {
+      "id": "software-architecture-negative-ci-setup",
+      "prompt": "Настрой GitHub Actions: запуск линтера, тестов и сборки при каждом pull request.",
+      "should_trigger": false,
+      "rationale": "Это обычная настройка конвейера проверки без архитектурного решения."
+    },
+    {
+      "id": "software-architecture-negative-product-analysis",
+      "prompt": "Проанализируй воронку регистрации и предложи, какие поля формы мешают пользователям.",
+      "should_trigger": false,
+      "rationale": "Это продуктовая аналитика, а не проектирование формы программной системы."
+    },
+    {
+      "id": "software-architecture-negative-api-client-implementation",
+      "prompt": "Реализуй клиент внешнего API для загрузки профиля пользователя и покрой его тестами.",
+      "should_trigger": false,
+      "rationale": "Это реализация интеграции без запроса на архитектурные контракты, границы или варианты решения."
+    },
+    {
+      "id": "software-architecture-negative-refactor-one-module",
+      "prompt": "Разбей большой файл helpers.ts на несколько модулей и сохрани текущее поведение.",
+      "should_trigger": false,
+      "rationale": "Это локальный рефакторинг кода, если пользователь не просит оценить компонентные границы системы."
+    },
+    {
+      "id": "software-architecture-negative-deployment-instructions",
+      "prompt": "Напиши инструкцию, как задеплоить сервис на staging через существующий Helm chart.",
+      "should_trigger": false,
+      "rationale": "Это эксплуатационная документация по существующей схеме, а не выбор архитектуры развёртывания."
+    },
+    {
+      "id": "software-architecture-negative-requirements-copyedit",
+      "prompt": "Отредактируй требования к уведомлениям: убери повторы, сохрани смысл и структуру раздела.",
+      "should_trigger": false,
+      "rationale": "Это редактура требований без анализа архитектурного влияния или выбора решения."
     }
   ]
 }
